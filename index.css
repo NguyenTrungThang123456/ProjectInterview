@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 950px) {
+    /* body {
+        width: 1000px;
+        margin-left: auto;
+    } */
+    .container {
+        max-width: 720px;
+    }
+    .main-top {
+        background-image: url(Image/70969665_405355060121939_4055968253061627904_n.png) !important;
+        background-position: -100px;
+    }
+    .ul-main {
+        /* float: left !important; */
+        justify-content: normal !important;
+    }
+    .li-main {
+        width: 100px !important;
+        height: 40px !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5px !important;
+    }
+    .flag {
+        width: 180px;
+    }
+    .sometext {
+        width: 70%;
+        float: left;
+    }
+    .Singapore-Ensign {
+        /* display: block !important; */
+        float: right !important;
+        width: 30%;
+    }
+    .Singapore-Detail {
+        display: flex;
+        justify-content: center;
+    }
+    .item-sgp {
+        width: 10rem;
+        margin: 2rem;
+    }
+    .item-Singapore p{
+        max-width: 200px;
+    }
+    .menu-icon {
+        display: none;
+    }
+    .bottom-header {
+        background-color: #002569;
+        text-align: center !important;
+        display: block !important;
+    }
+    .bottom-header p {
+        margin: 0;
+        padding: 5px;
+        color: #ff9f00;
+    }
+    .ft {
+        color: gray;
+    }
+    .something {
+        color: white;
+        display: flex !important;
+        height: 70px;
+        width: 110px;
+        background: #ff9f00;
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .wrap-item-footer {
+        float: right;
+    }
+    .content-footer {
+        text-align: left !important;
+    }
+    .footer-title {
+        margin: 0 !important;
+    }
+    .footer-item {
+        width: auto !important;
+        margin: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    .text-sgp {
+        max-width: 200px;
+    }
+    .min-text
+    { 
+        font-size: 12px;
+        display: block !important;
+    }
+    .fa-arrow-right
+    {
+        padding: 4px;
+        font-size: 6px !important;
+    }
+    .main-top
+    {
+      background-position: -300px;
+    }
+}
+.min-text
+{
+    display: none;
+    color: gray;
+}
+.ff
+{
+    color: #002569;
+}
+.wr-crown {
+    background-color: #ff9f00;
+}
+
+.item-st {
+    margin-right: 30px;
+}
+
+.something {
+    display: flex;
+    align-items: center;
+    padding: 5px
+}
+
+.wrap-flag {
+    text-align: center;
+}
+
+.Singapore-Ensign {
+    display: inline-block
+}
+
+.something {
+    display: none;
+}
+
+.primary {
+    color: linear-gradient(to right top, #002771, #092f80, #12388f, #1a419e, #214aae, #224cb5, #234fbd, #2451c4, #1f4dc3, #1a49c3, #1544c2, #1040c1);
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #051937, #602e5f, #b8455f, #eb8040, #e1d22c);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /* background-image: linear-gradient(to right top, #002771, #092f80, #12388f, #1a419e, #214aae, #4869bd, #466dce, #4e70c7, #1f4dc3, #1a49c3, #1544c2, #1040c1); */
+    border-bottom: 3px solid rgba(255, 159, 0, 1);
+    background-color: #002771;
+    /* background-image: linear-gradient(to right top, #855871, #7a4b6f, #6c3f6e, #5a366f, #432e70, #372f6f, #292f6e, #172f6c, #223468, #2c3964, #343e60, #3c435b); */
+}
+
+.Logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.bottom-logo-string {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 50;
+}
+
+.logo-string {
+    font-size: 20px;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 2rem;
+    margin-left: auto;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.main-top {
+    /* background-position: -250px; */
+    background-color: #e2e0d8;
+}
+
+.main-top p {
+    margin-top: 0px;
+}
+
+.number-title {
+    font-weight: 100;
+}
+
+.top-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.bottom-header {
+    display: none;
+}
+
+.title {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+
+.title-content {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.ul-main {
+    /* border-bottom: 2px solid #002771; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1rem;
+    padding-inline-start: 0px;
+    margin-bottom: 0;
+}
+
+.li-main {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.left-li {
+    border-right: none;
+    border-bottom: 1px solid #f5f5f5 !important;
+    /* border: 2px solid #002771; */
+    background-color: #f5f5f5;
+}
+
+.right-li {
+    border-left: none;
+}
+
+.main-top {
+    background-image: url(Image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-bottom: 1px solid; */
+    color: #002569;
+}
+
+.bottom-content {}
+
+.main-bottom {
+    background-color: #f5f5f5;
+    color: gray;
+}
+
+.welcome {
+    margin-top: 0px;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.Singapore {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.wrap-item {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+}
+
+.left {
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.left p {
+    font-weight: 300;
+}
+
+.right {
+    width: 80%;
+    float: right;
+}
+
+.right p {}
+
+.bottom-content p {
+    height: 35px;
+    margin: 10px;
+}
+
+.bottom-content {
+    background-color: #f5f5f5;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1rem;
+    color: gray;
+}
+
+.td-first {
+    color: black;
+    text-align: center;
+    width: 100px;
+}
+
+.wrap-table {
+    border-top: 1px solid black;
+}
+
+.footer {
+    background-color: #002569;
+}
+
+.ul-footer {
+    list-style: none;
+}
+
+.li-footer {
+    width: 25% !important;
+    height: 50px !important;
+    display: inline-block;
+}
+
+.wrap-item-footer {
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.ul-footer {
+    padding-inline-start: 0px;
+}
+
+.img-footer {
+    /* height: 100%; */
+    padding: 5px;
+}
+
+.footer-item {
+    width: 20%;
+    display: inline-block;
+}
+
+.content-footer {
+    text-align: center;
+    color: gray;
+}
+
+.content-footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-title {
+    color: white;
+    margin: 10px;
+}
+
+.footer-title b {
+    margin-right: 5px;
+}
