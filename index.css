@@ -48,12 +48,20 @@
         display: flex;
         justify-content: center;
     }
+    #span-flex {
+        display: grid;
+        grid-auto-columns: 50% 50%;
+    }
     .item-sgp {
         width: 10rem;
         margin: 2rem;
     }
+    .item-Singapore img{
+        height: 76px;
+    }
     .item-Singapore p{
         max-width: 200px;
+        font-size: 15px;
     }
     .menu-icon {
         display: none;
@@ -221,7 +229,7 @@ body {
 
 .title {
     text-transform: uppercase;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background-image: linear-gradient(to right, #00256d, orange,#002ce2, green, blue, indigo, #fe9f01);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 0;
@@ -231,7 +239,8 @@ body {
 
 .title-content {
     margin-top: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-left: 0;
 }
 
 .ul-main {
@@ -256,7 +265,7 @@ body {
 .left-li {
     border-right: none;
     border-bottom: 1px solid #f5f5f5 !important;
-    /* border: 2px solid #002771; */
+    /* border: 2px solid #002771; */ 
     background-color: #f5f5f5;
 }
 
@@ -287,10 +296,11 @@ body {
 
 .Singapore {
     text-transform: uppercase;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to right, #002777 0%, #184cfd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
+    font-weight: 900;
 }
 
 .wrap-item {
@@ -300,7 +310,14 @@ body {
 .item {
     display: inline-block;
 }
-
+.item-Singapore{
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+.item-Singapore h2{
+    color:#002a8d;
+}
 .left {
     text-align: center;
     width: 20%;
